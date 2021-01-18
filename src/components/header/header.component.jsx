@@ -10,8 +10,8 @@ import './header.styles.scss';
 const Header = ({ currentUser }) => ( //si son varias props: const Header = ( {prop 1, prop2, prop3} )
     <div className='header'>
 
-        <Link className='logo-container'>
-            <Logo className='logo' to='/' />
+        <Link className='logo-container' to='/'>
+            <Logo className='logo' />
         </Link>
 
         <div className='options'>
